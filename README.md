@@ -4,7 +4,7 @@
 Alterar a descrição de um commit
 
 ```
-git commit -m "alterando descrição do commit" --ammend
+git commit -m "alterando descrição do commit" --amend
 ```
 
 Desfazer git add
