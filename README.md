@@ -25,6 +25,12 @@ Resetar dois commits REMOVENDO os arquivos
 git reset --hard HEAD~2
 ```
 
+Resetar commit por tempo
+
+```
+git reset --hard master@{"10 minutes ago"}
+```
+
 Incluir partes do arquivo editado em um commit e partes não
 
 ```
