@@ -37,6 +37,16 @@ Incluir partes do arquivo editado em um commit e partes não
 git add -p
 ```
 
+Delete Local Branch
+```
+git branch -d localBranchName
+```
+
+Delete Remote Branch
+```
+git push origin --delete remoteBranchName
+```
+
 Exibe a árvore de commits
 
 ```
