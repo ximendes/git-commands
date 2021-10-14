@@ -52,3 +52,17 @@ Exibe a árvore de commits
 ```
 git log --graph
 ```
+
+
+Fetch tags
+
+```
+git fetch tag
+```
+
+Exibe Ultima Tag
+
+```
+git describe --tags $(git rev-list --tags --max-count=1)
+```
+
