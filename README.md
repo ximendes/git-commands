@@ -57,7 +57,7 @@ git log --graph
 Fetch tags
 
 ```
-git fetch tag
+git fetch --tags
 ```
 
 Exibe Ultima Tag
